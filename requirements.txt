@@ -1,0 +1,6 @@
+# 与 EMR err-1.0.1 的 Ray 2.47.1 对齐；default 提供提交用的 Job SDK，data 自带 pyarrow / numpy
+ray[default,data]>=2.47.1
+# 代码按 0.7 的 UDF API（@daft.func / @daft.cls）写
+daft>=0.7
+# Ray 2.47 仍引用 pandas 3 已删除的 SettingWithCopyWarning，pandas 批会直接崩
+pandas<3
