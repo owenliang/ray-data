@@ -21,4 +21,4 @@ $env:AWS_ACCESS_KEY_ID = "<AK>"; $env:AWS_SECRET_ACCESS_KEY = "<SK>"
 python submit_data_job.py --demo raydata-multimodal --multimodal-input s3://rayoss-data/videos/ --multimodal-output s3://rayoss-data/masked/raydata/
 python submit_data_job.py --demo daft-multimodal    --multimodal-input s3://rayoss-data/videos/ --multimodal-output s3://rayoss-data/masked/daft/
 ```
-# ray-data
+
