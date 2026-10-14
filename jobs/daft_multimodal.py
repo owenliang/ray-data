@@ -13,6 +13,7 @@ def build_io_config():
         endpoint_url=oss_endpoint(),
         key_id=os.environ["AWS_ACCESS_KEY_ID"],
         access_key=os.environ["AWS_SECRET_ACCESS_KEY"],
+        region_name="oss-cn-beijing",
         force_virtual_addressing=True,
     ))
 
